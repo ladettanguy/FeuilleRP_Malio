@@ -1,0 +1,469 @@
+{
+    "classe" : [
+        {"nom": "Garfarh","sort":[
+            {"nom":"Pluis de plume","Description":"Tire 4 plumes noires, infligeant chacune 1 dégât Ténèbres et laisse une marque noir si la plume à infliger des dégats (3 utilisation par combat)","niveau":
+            [
+                "",
+                "+1 Utilisation",
+                "+1 Utilisation, -10% parade||esquive",
+                "+1 Utilisation, -10% parade||esquive, +1 Plume||+1dégat/Plume",
+                "+1 Utilisation, -10% parade||esquive, +1 Plume||+1dégat/Plume, Chaque plume soigne de 1PV lumière || Perce 2 défense au Ténèbres",
+                "+2 Utilisation, -10% parade||esquive, +1 Plume||+1dégat/Plume, Chaque plume soigne de 1PV lumière || Perce 2 défense au Ténèbres, Sort Epic : Tornade de plumes noires : Crée une tornade de plumes infligeant 2x5 dégât ténèbres en ZONE. Peut utilisé X utilisation supplémentaire pour augmenter de X le nombre de coup. (1 utilisation par combat, consomme une utilisation de « Pluies de plumes »)"
+            ]},
+            {"nom":"Rayon Garfarh","Description":"Tire un rayon qui inflige 3 dégât Ténèbres. Si le partenaire est proche, applique un malus d’esquive de 10 % (3 utilisation par combat)","niveau":
+            [
+                "",
+                "+1 Utilisation||Dégat",
+                "+2 Utilisations||Dégats",
+                "+3 Utilisations||Dégats",
+                "+4 Utilisations||Dégats",
+                "+5 Utilisations||Dégats"
+            ]},
+            {"nom":"Frappe du Garfarh Noir","Description":"Fonce sur sa cible, appliquant un malus d’esquive et de parade de 10 % puis donne un coup de point infligeant 5 dégât Ténèbres et applique 1 marque Ténèbres (2 utilisation par combat)","niveau":
+            [
+                "",
+                "+1 Utilisation||Dégat",
+                "+2 Utilisations||Dégats",
+                "+3 Utilisations||Dégats",
+                "+4 Utilisations||Dégats",
+                "+5 Utilisations||Dégats"
+            ]},
+            {"nom":"Vol de la Déesse","Description":"Permet de volé pendant 20 minute ou jusqu’à se prendre 5 dégât","niveau":
+            [
+                "",
+                "+1 Utilisation",
+                "+2 Utilisations",
+                "+3 Utilisations",
+                "+4 Utilisations",
+                "+5 Utilisations"
+            ]}
+        ]},
+        
+        {"nom": "Xelor","sort":[
+            {"nom":"Fuite du temps","Description":"Le xélore se téléporte a une distance de 10 mètre maximum dans un endrois de son champ de vision. La téléportation inflige 3 dégât FEU a l'emplacement de départ et d'arrivé du Xélor. Une cible ne peut êtr affecter que par une seul explosion (2 utilisation par combat)","niveau":
+            [
+                "",
+                "+1 Utilisation",
+                "+1 Utilisation, +1 dégât et la distance de téléportation augmente de 5 mètres, ",
+                "+2 Utilisations, +1 dégât et la distance de téléportation augmente de 5 mètres, donne REACTION a Fuite du temps",
+                "+2 Utilisations, +2 dégâts et la distance de téléportation augmente de 5 mètres, donne REACTION a Fuite du temps, une même cible peut maintenant être affecter par les 2 explosions",
+                "+4 Utilisations, +2 dégâts et la distance de téléportation augmente de 5 mètres, donne REACTION a Fuite du temps, une même cible peut maintenant être affecter par les 2 explosions, lancer Fuite du temps ne nésséssite plus d'action lors du tour du Xélor, le xélore gagne 10 de réflexe temporaire pour lancer fuite du temps lorsque se n'est pas son tour"
+            ]},
+            {"nom":"Rayon Obscure","Description":"Le xélore utlise ses deux main pour tirer un rayon temporelle infligeant 6 dégât FEU au Corps a corps, les dégât passe à 2 si le rayon traverse une distance de 5 mètre ou plus (3 utilisation par combat)","niveau":
+            [
+                "",
+                "+1 Dégât à distance",
+                "+2 Dégâts à distance, +1 Dégât CaC, +1 Utilisation",
+                "+2 Dégâts à distance, +1 Dégât CaC, +1 Utilisation, La distance de réduction des dégât passe de 5 à 10 mètre",
+                "+3 Dégâts à distance, +2 Dégât CaC, +1 Utilisation, La distance de réduction des dégât passe de 5 à 10 mètre, se sort est 15% plus difficile a esquivé",
+                "+3 Dégâts à distance, +4 Dégât CaC, +1 Utilisation, La distance de réduction des dégât passe de 5 à 10 mètre, se sort est 15% plus difficile a esquivé, se sort est 20 % plus difficile a paré || +3 dégât minimum et malus d'esquive passe de 15 à 25 %"
+            ]},
+            {"nom":"Furis du temps","Description":"Le xélore crée une explosion temporelle autour de lui qui inflige 5 dégât AIR a tout les ennemis dans une petite zone et applique le malus ralentissement temporel jusqu'à la fin de leur prochain tour (Ralentissement temporel : le xélore gagne un bonus d'esquive et de parade de 30 % contre les cible affecter par ralentissement temporel, les ennemis eux vois leur chance de parer et d'esquivé les coup du xélore baisser de 20%) (1 utilisation par combat)","niveau":
+            [
+                "",
+                "+1 utilisation",
+                "+1 utilisation, +1 utilisation || augmente le malus d'esquive et de parade enver les attaque du xélore de 5 %",
+                "+1 utilisation, +1 utilisation || augmente le malus d'esquive et de parade enver les attaque du xélore de 5 %, +1 dégât || augmente le malus d'esquive et de parade enver les attaque du xélore de 5 %",
+                "+2 utilisation, +1 utilisation || augmente le malus d'esquive et de parade enver les attaque du xélore de 5 %, +1 dégât || augmente le malus d'esquive et de parade enver les attaque du xélore de 5 %, Furis du temps peut utilisé 2 utilisation du sort pour lancer se sort en REACTION",
+                "+2 utilisation, +1 dégât, +1 utilisation || augmente le malus d'esquive et de parade enver les attaque du xélore de 5 %, +1 dégât || augmente le malus d'esquive et de parade enver les attaque du xélore de 5 %, Furis du temps peut utilisé 2 utilisation du sort pour lancer se sort en REACTION, Toucher une ennemis avec Furis du temps vous rend l'action que vous avez utilisé pour lancer le sort"
+            ]},
+            {"nom":"Flétrissement","Description":"Le Xélor crée une annomalie temporel dans une petite zone, se qui la rend instable et la fait exploser. L'explosion inflige 4 dégât AIR, si la cible a esquivé le sort, le Xélor gagne une utilisation temporaire de Flétrissement (il perd cette utilisatsion temporaire a la fin de son prochain tour). Si la cible a paré le sort, Flétrissement augmente ses dégât de 1 jusqu'à se que flétrissement inflige des dégât. Si ils y avais plusieur cible et que l'une a esquiver et l'autre a parer le sort : c'est au xélore de choisir le buff que reçoit flétrisssement (1 seul à la fois) (3 utilisation)","niveau":
+            [
+                "",
+                "+1 utilisation||dégat",
+                "+2 utilisations||dégats, le sort flétrissement est 5% plus dure a parer et a esquivé",
+                "+2 utilisations||dégats, le sort flétrissement est 5% plus dure a parer et a esquivé, Si sort esquivé->+1dégat prochaine attaque, Si sort paré->+1 résistance élémentaire 1 tour",
+                "+2 utilisations||dégats, le sort flétrissement est 5% plus dure a parer et a esquivé, Si sort esquivé->+1dégat prochaine attaque, Si sort paré->+1 résistance élémentaire 1 tour, L'utilisation supplémentaire de Flétrissement peut être lancer en REACTION, les dégât bonus lié a la parade de Flétrissement sont maintenant des dégât finaux",
+                "+3 utilisations||dégats, le sort flétrissement est 5% plus dure a parer et a esquivé, Si sort esquivé->+1dégat prochaine attaque, Si sort paré->+1 résistance élémentaire 1 tour, L'utilisation supplémentaire de Flétrissement peut être lancer en REACTION, les dégât bonus lié a la parade de Flétrissement sont maintenant des dégât finaux, Si une cible esquive Flétrissement, une autre explosion (flétrissement fantôme) se produiras apres sont esquive de puissance égale au Flétrissement précédament esquivé (se flétrissement fantôme est 10 % plus dure à parer et esquivé). Le bonus de dégât de flétrissement en cas de parade passe de 1 à 2 et si une cible pare Flétrissement, se prochain Flétrissement auras la capacité \"Coup puissant\""
+            ]},
+            {"nom":"Horloge Xélor","Description":"le Xélor fait passer les heur de son horloge interne jusqu'au point clef . Si 3 heur est choisi : le xélor gagne 5 en Agilité pendant 2 tour Si 6 heur est choisi : le xélor gagne 5 en Force pendant 2 tour Si 9 heur est choisi : le xélor gagne 5 en Chance pendant 2 tour Si 12 heur est choisi : le xélor gagne 5 en Intéligence pendant 2 tour","niveau":
+            [
+                "",
+                "3h->+5 esquive, 6h->+5 parade, 9h->+5 chance, 12h->+5 perception",
+                "3h->+5 esquive +1Resi AIR, 6h->+5 parade +1Resi TERRE, 9h->+5 chance +1Resi EAU, 12h->+5 perception +1Resi FEU",
+                "3h->+5 esquive +1Resi AIR, 6h->+5 parade +1Resi TERRE, 9h->+5 chance +1Resi EAU, 12h->+5 perception +1Resi FEU, Au lieux d'utilisé sont action pour changer d'heur, le Xélore peut utilisé sont déplacement a la place. Le bonus de statistique passe de 5 à 10",
+                "3h->+10 esquive +1Resi AIR, 6h->+10 parade +1Resi TERRE, 9h->+10 chance +1Resi EAU, 12h->+10 perception +1Resi FEU, Au lieux d'utilisé sont action pour changer d'heur le Xélore peut utilisé sont déplacement a la place. Le bonus de statistique passe de 5 à 10, A chaque fois que le Xélor change 6 fois d'Heur il peut régénéré 1 utilisation de l'un des sort de son choix",
+                "3h->+10 esquive +1Resi AIR, 6h->+10 parade +1Resi TERRE, 9h->+10 chance +1Resi EAU, 12h->+10 perception +1Resi FEU, Au lieux d'utilisé sont action pour changer d'heur le Xélore peut utilisé sont déplacement a la place. Le bonus de statistique passe de 5 à 15, A chaque fois que le Xélor change 6 fois d'Heur il peut régénéré 1 utilisation de l'un des sort de son choix, Si le Xélore a fait tournée les heur dans cette ordre : 3 Heur, 6 heur, 9 Heur, 12 Heur : Il peut lancer le Rayon de l'Horloge qui inflige 4 fois 5 dégât (5 dégât AIR, puis 5 dégât TERRE, puis 5 dégât EAU et enfin 5 dégât FEU). Si le Xélor a utiliser sont action et non son déplacement pour changer d'heur, il peut lancer 1 sort dépendant des Heurs sans utiliser d'action"
+            ]},
+            {"nom":"Gélure","Description":"Le Xélor tire un rayon de Givre infligeant 3 dégât EAU, si la cible est toucher par le rayon (parade comprise) elle perd 5 de force et 5 d'agilité pendant 2 tour (cummulable mais chaque malus a son propre décompte), S'il est 3 Heur : le rayon fait perdre 5 Agilité supplémentaire, S'il est 6 Heur : le rayon fait perdre 5 Force supplémentaire, S'il est 9 Heur : le rayon fait 1 dégât supplémentaire, S'il est 12 Heur : le rayon est explosif et le malus dure 1 tour de plus (3 utilisation par combat)","niveau":
+            [
+                "",
+                "+1 dégât || fait passer le bonus de dégât de 9 Heur à 3",
+                "+1 dégât || fait passer le bonus de dégât de 9 Heur à 3, +1 utilisation, augmente le malus d'agilité de 3 Heur de 5 point",
+                "+1 dégât || fait passer le bonus de dégât de 9 Heur à 3, +2 utilisations, augmente le malus de 3 Heur et 9 Heur de 5 point, 12 heur donne un bonus de 1 dégât",
+                "+1 dégât || fait passer le bonus de dégât de 9 Heur à 3, +3 utilisations, augmente le malus de 3 Heur et 9 Heur de 5 point, 12 heur donne un bonus de 1 dégât, la duré des malus passe à 3 tour, Gélure repousse la cible de X mètre (X = dégât) si L'heur est à 9 ou 12",
+                "+1 dégât || fait passer le bonus de dégât de 9 Heur à 3, +1 dégât, +4 utilisations, fait passer le malus de 3 Heur et 9 Heur à 15, Le Xélor peut faire changer l'élément de frappe de Gélure en fonction de l'heur actuel du cadran : 3 Heur: AIR. 6 Heur: TERRE. 9 Heur: EAU. 12 Heur: FEU"
+            ]},
+            {"nom":"Désyncronisation","Description":"Fluctue l'espris de la cible et lui fait perdre 5 point d'intéligence et de chance pendant 3 tour (cummulable mais chaque malus a son propre décompte), se sort n'est pas esquiveble ou parable. S'il est 3 Heur au lancer du sort: le sort fait perdre 5 Agilité supplémentaire. S'il est 6 Heur: le sort fait perdre 5 Force supplémentaire. S'il est 9 Heur: le sort fait perdre 5 de chance supplémentaire. S'il est 12 Heur: le sort fait perdre 5 d'intéligence supplémentaire (3 utilisation)","niveau":
+            [
+                "",
+                "La cible perd 10 % de résistance mentale et de Reflèxe pendant 2 tour",
+                "La cible perd 10 % de résistance mentale et de Reflèxe pendant 2 tour, A Chaque tour qu'une cible est sous Désyncronisation, elle dois faire un jet de résistance mentale, si le jet est raté, la cible subbit 1 dégât BRUTE",
+                "+1 utilisation,La cible perd 10 % de résistance mentale et de Reflèxe pendant 2 tour, A Chaque tour qu'une cible est sous Désyncronisation, elle dois faire un jet de résistance mentale, si le jet est raté, la cible subbit 1 dégât BRUTE, les malus conféré par les Heur sont augmenté de 5 point",
+                "+2 utilisation,La cible perd 10 % de résistance mentale et de Reflèxe pendant 2 tour, A Chaque tour qu'une cible est sous Désyncronisation, elle dois faire un jet de résistance mentale, si le jet est raté, la cible subbit 2 dégât BRUTE, les malus conféré par les Heur sont augmenté de 5 point, le malus d'intéligence et de chance de base passe à 10",
+                "+2 utilisation,La cible perd 10 % de résistance mentale et de Reflèxe pendant 2 tour, A Chaque tour qu'une cible est sous Désyncronisation, elle dois faire un jet de résistance mentale, si le jet est raté, la cible subbit 3 dégât BRUTE, les malus conféré par les Heur sont augmenté de 5 point, le malus d'intéligence et de chance de base passe à 10, Si une cible reste 3 tour sous l'effet de Désyncronisation, elle optient le malus ralentissement temporel jusqu'à la fin de leur prochain tour (Ralentissement temporel : le xélore gagne un bonus d'esquive et de parade de 30 % contre les cible affecter par ralentissement temporel, les ennemis eux vois leur chance de parer et d'esquivé les coup du xélore baisser de 10%)"
+            ]},
+            {"nom":"Prisme temporel","Description":"le Xélor s'entour d'un Prisme temporel, brouillant légèrement la vision qu'on les autre de lui, se qui le rend 10 % plus difficile a toucher est a esquiver / parer pendant 4 tour (non cummulable). S'il est 3 Heur au lancer du sort: le sort fait gagner au xélore 10 % de chance de réussite sur ses sort. S'il est 6 Heur: tout dégât arrivant sur le Xélor sont réduit de 1 si se sont des arme et de 2 si c'est un sort. S'il est 9 Heur: toute personne étant au CAC du Xélor perd 5 point dans toute ses statistique jusqu'à se qu'il sorte du CAC. S'il est 12 Heur: les sort lancer par le Xélore ferons 1 dégât supplémentaire (2 utilisation par combat)","niveau":
+            [
+                "",
+                "-1 dégât subit si 6heur||+1 dégât si 12heur",
+                "-1 dégât subit si 6heur||+1 dégât si 12heur, +1 utilisation OU Change le sort en réaction",
+                "-1 dégât subit si 6heur||+1 dégât si 12heur, +1 utilisation OU Change le sort en réaction, +1 utilisation, les bonus/malus passe à 15%",
+                "-1 dégât subit si 6heur||+1 dégât si 12heur, +1 utilisation OU Change le sort en réaction, +1 utilisation, les bonus/malus passe à 15%, +1 utilisation OU augmente le bonus de 3 heur de 10 % OU augmente la réduction des dégât des arme de 1 a 6 Heur OU Si le bonus de 9 Heur est appliqué depuis plus de 2 tour il augmente de 5 tout les 2 tour OU augmente de 1 le bonus conféré par 12 Heur",
+                "-1 dégât subit si 6heur||+1 dégât si 12heur, +1 utilisation OU Change le sort en réaction, +1 utilisation, les bonus/malus passe à 15%, +1 utilisation OU augmente le bonus de 3 heur de 10 % OU augmente la réduction des dégât des arme de 1 a 6 Heur OU Si le bonus de 9 Heur est appliqué depuis plus de 2 tour il augmente de 5 tout les 2 tour OU augmente de 1 le bonus conféré par 12 Heur, Le Prisme peut être lancer sur un allié autre que le Xélor avec les même effet. Le Prisme peut être lancer sur un ennemis se qui auras pour effet de diminué ses statistique de 10 point pendant 2 tour en plus de lui infliger 2 dégât EAU a chaque début de sont tour (se sort est esquivable mais pas parable)"
+            ]},
+            {"nom":"Aiguille","Description":"Invoque une Aiguille a tête chercheuse (Max une a la fois, pas plus de 2 invocation en même temps) qui chercheras sa cible et lui infligeras 4 point de dégât AIR. Si la cible subis des dégât de l'Aiguille, il se metras a subir 1 dégât de plus pendant 2 tour. (3 utilisation par combat)","niveau":
+            [
+                "",
+                "+1 utilisation",
+                "+1 utilisation, +1 aiguille simultané, +1 dégât,",
+                "+1 utilisation, +1 aiguille simultané, +1 dégât, Si une cible Pare l'Aiguille, cette dernière explose infligeant 1 dégât Finaux",
+                "+2 utilisation, +1 aiguille simultané, +2 dégât, Si une cible Pare l'Aiguille, cette dernière explose infligeant 3 dégât Finaux",
+                "+2 utilisation, +1 aiguille simultané, +3 dégât, Si une cible Pare l'Aiguille, cette dernière explose infligeant 4 dégât Finaux, peut invoque deux aiguille en 1 tour, le malus dure 1 tour de plus, L'Aiguille peut maintenant être équipé  comme une arme en utilisant une utilisation du sort. l'arme infligeant 3*2 dégât AIR (une main, type tranchant) et infligeant 1 dégât finaux a l'adversaire a chacune de ses parade (peut être équipé au Xélore ou a ses invocation)"
+            ]},
+            {"nom":"Sinistro","Description":"invoque une Sinistro (Max 1 a la fois, pas plus de 2 invocation en même temps), le sinistro chercheras s'éloigner et tireras un tour sur deux un rayon infligeant 4 dégât EAU (non boostable par les caractéristique), la Sinistro à 10 PV, 1 de résistance élémentaire, 10 de parade et 10 d'esquive et 1 d'armure. (2 utilisation par combat)","niveau":
+            [
+                "",
+                "+1 utilisation || +1 sinistro a la fois",
+                "+2 utilisation || +2 sinistro a la fois, +1 dégât de la sinistro",
+                "+2 utilisation || +2 sinistro a la fois, +1 dégât de la sinistro, la sinistro gagne 10 PV, 1 d'armure et 1 de résistance élémentaire ainsi que 10 de parade et 10 d'esquive, elle est également plus intéligente et chercheras a focus la même cible que le xélore",
+                "+1 utilisation, +2 utilisation || +2 sinistro a la fois, +2 dégât de la sinistro, la sinistro gagne 10 PV, 1 d'armure et 1 de résistance élémentaire ainsi que 10 de parade et 10 d'esquive, elle est également plus intéligente et chercheras a focus la même cible que le xélore, la sinistro tire maintenant a tout les tour",
+                "+1 utilisation, +2 utilisation || +2 sinistro a la fois, +3 dégât de la sinistro, la sinistro gagne 10 PV, 1 d'armure et 1 de résistance élémentaire ainsi que 10 de parade et 10 d'esquive, elle est également plus intéligente et chercheras a focus la même cible que le xélore, la sinistro tire maintenant a tout les tour, La sinistro peut maintenant s'envolé et se téléporté en réaction (50 % de chance, 2 fois par combat) uniquement si on l'attaque. Elle peut maintenant lancer son rayon en réaction pour protégé le Xélore d'attaque, Le xélore peut s'équipé du canon sinistro en utilisant une utilisation du sort. Le canon tire un rayon infligeant 1*4 dégât EAU (une main, type distance) (non boostable par la force) se canon peut être équipé au Xélore ou a une de ses invocation."
+            ]},
+            {"nom":"Hydruille","Description":"Le xélore invoque un disque mécanique qi agite des aiguille fondu tout feu tout flamme qui lévite dans une zone attaquant tout les ennemis a porté d'un jet de flamme infligeant 6 dégât FEU (non boostable par les caractéristique) (1 max a la fois, pas plus de 2 invocation en même temps). Une fois tout les 3 tour, l'Hydruille peut se téléporté dans une zone proche du Xélor. Elle possède 5 PV 2 armure et 2 résistance élémentaire, 0 esquive et 0 parade (2 utilisation)","niveau":
+            [
+                "",
+                "+1 utilisation || +1 Hydruille a la fois",
+                "+1 utilisation || +1 Hydruille a la fois, +1 dégât de la Hydruille, L'hydruil se téléporte maintenant tout les deux tour",
+                "+1 utilisation || +1 Hydruille a la fois, +1 dégât de la Hydruille, L'hydruil se téléporte maintenant tout les deux tour, L'Hydruile emet désormet un champ de protection au Xélore si se dernier est proche d'elle. Le champ bloque 5 dégât par tout et se recharge a chaque début de tour de L'Hydruille",
+                "+1 utilisation || +1 Hydruille a la fois, +2 dégât de la Hydruille, L'hydruil se téléporte maintenant tout les deux tour, L'Hydruile emet désormet un champ de protection au Xélore si se dernier est proche d'elle. Le champ bloque 5 dégât par tout et se recharge a chaque début de tour de L'Hydruille, Tout ennemis entrant ou sortant du cercle de protection de l'Hydruile subiras un jet de flamme en REACTION",
+                "+1 utilisation || +1 Hydruille a la fois, +4 dégât de la Hydruille, L'hydruil se téléporte maintenant tout les tours, L'Hydruile emet désormet un champ de protection au Xélore si se dernier est proche d'elle. Le champ bloque 10 dégât par tout et se recharge a chaque début de tour de L'Hydruille, Tout ennemis entrant ou sortant du cercle de protection de l'Hydruile subiras un jet de flamme en REACTION, +5PV, +1 utilisation, +2 armure, +2 résistance élémentaire, Le xélore peut s'équipé du Bouclier en Hydruile en utilisant une utilisation du sort. Le bouclier donne un bonus de 5 % de parade et 5% de contre attaque et génère une barrière de 10 PV au xélore uniquement qui se recharge tout les 2 tour"
+            ]},
+            {"nom":"Cadran Xélor","Description":"Pose un Cadran fixe sur le sol (Max un a la fois, pas plus de 2 invocation en même temps) Apres un tour de charge, le cadran émèteras sont effet en fonction de l'Etat du Xélor. Neutre : Donne au Xélore un sort qui lui permet de se téléporté sur le cadran, utilisation illimité, 4 tour de recharge. 3 Heur : Le cadran emet en continue dans un rayon de 5 mètre un ralentissement temporel. 6 Heur : Le Cadran augmente les dégât infliger per le xélore et ses invocation de 1. 9 Heur : Le cadran augmente la perception, le réflexe, la résistance au choc et la chance du xélor de 10 %. 12 Heur : Chaque sort lancer par le Xélor dans un rayon de 5 mètre autour du cadran lui donne une charge. Le cadran peut dépenser 1 charge pour se donner un bouclier de 10 PV pour évité d'être détruit (il dépenseras autant de charge que néssessaire pour survivre) sous l'ordre du Xélor (ne néssisite pas d'action) le Cadran Tire Un rayon en consomant toute ses charge. Le Rayon inflige 2 dégât FEU par charge. Le cadran possède 5 PV, 0 Esquive, 0 parade, 3 armure, 0 résistance élémentaire (1 utilisation)","niveau":
+            [
+                "",
+                "le bouclier de 12 heur passe à 15 PV || les PV du cadran passe à 15",
+                "le bouclier de 12 heur passe à 15 PV || les PV du cadran passe à 15, le Neutre se rechage au bout de 3 tour",
+                "le bouclier de 12 heur passe à 15 PV || les PV du cadran passe à 15, le Neutre se rechage au bout de 3 tour, Le Neutre est disponible quelque soit l'Heur de départ",
+                "le bouclier de 12 heur passe à 15 PV || les PV du cadran passe à 15, le Neutre se rechage au bout de 3 tour, Le Neutre est disponible quelque soit l'Heur de départ, Le Xélor peut changer l'Heur du cadran avec un jet (80 ou moin) le nouvelle effet du cadran seras en fonction de l'Heur actuel du Xélor",
+                "le bouclier de 12 heur passe à 15 PV || les PV du cadran passe à 15, le Neutre se rechage au bout de 3 tour, Le Neutre est disponible quelque soit l'Heur de départ, Le Xélor peut changer l'Heur du cadran avec un jet (80 ou moin) le nouvelle effet du cadran seras en fonction de l'Heur actuel du Xélor, Les rayon de 5 mètre passe à 10 mètre, le bonus de 9 Heur passe à 15 %, le bonus de 6 Heur passe à 2. Le Rayon de 12 heur fait maintenant 3 dégât FEU par charge, Peut utilisé une utilisation du sort Cadran Xélor pour s'équipé de la \"lance du temps\". La lance (une main, type baton) fait 1*4 EAU (non boostable par l'agilité) et applique l'effet Ralentissement du temps s'il inflige des dégât"
+            ]},
+            {"nom":"Sauvegarde","Description":"Se sort ne prend qu'une demis action pour être lancer, il permet au Xélor de reprendre 1 utilisation de l'un de ses sort (1 utilisation)","niveau":
+            [
+                "",
+                "+1 utilisations",
+                "+2 utilisations, peut utilis 2 utilisation pour redonner 1 utilisation de sort a un allié",
+                "+3 utilisations, peut utilis 2 utilisation pour redonner 1 utilisation de sort a un allié, si le sort inflige des dégât, booste les dégât du sort de 1 au sort qui a regagner une utilisations",
+                "+4 utilisations, peut utilis 2 utilisation pour redonner 1 utilisation de sort a un allié, si le sort inflige des dégât, booste les dégât du sort de 1 au sort qui a regagner une utilisations, permet de lancer se sort autant de fois par tour qu'on le souhaiter",
+                "+4 utilisations, peut utilis 2 utilisation pour redonner 1 utilisation de sort a un allié, si le sort inflige des dégât, booste les dégât du sort de 1 au sort qui a regagner une utilisations, permet de lancer se sort autant de fois par tour qu'on le souhaiter, une utilisation de se sort restaure 2 utilisation d'un autre sort"
+            ]}
+        ]},
+
+        {"nom": "Eniripsa","sort":[
+            {"nom":"Mot soignant","Description":"le sort de soin de base des Eniripsa, ils peuvent enlever tout les bobos, rend 2 point de vie EAU (4 utilisations par combat) / Contre nature : Inflige 2 dégât EAU","niveau":
+            [
+                "",
+                "+1 Utilisation||+1 Dégâts||+5% réussite",
+                "+2 Utilisation||+2 Dégâts||+10% réussite, concentration de soin/dégât, permet de stocker 2 soin en un seul soins utilisable aux prochain tour",
+                "+3 Utilisation||+3 Dégâts||+15% réussite, concentration de soin/dégât, permet de stocker 3 soin en un seul soins utilisable aux prochain tour",
+                "+4 Utilisation||+4 Dégâts||+20% réussite, concentration de soin/dégât, permet de stocker 4 soin en un seul soins utilisable aux prochain tour",
+                "+5 Utilisation||+5 Dégâts||+25% réussite, concentration de soin/dégât, permet de stocker 4 soin en un seul soins utilisable aux prochain tour, Mot revigorant: le soin passe en zone."
+            ]},
+            {"nom":"Marque vampirique","Description":"Marque une cible, les 2 prochains coup que se prendra la cible soignera le lanceur du sort qui a fait les dégâts d'un montant égal au dégât infligés (2 utilisations par combat) / Contre nature: lance un sort de vole de vie qui vole 2 PV AIR.","niveau":
+            [
+                "",
+                "+1 Utilisation||+1 Dégâts||+5% réussite",
+                "+2 Utilisation||+2 Dégâts||+10% réussite",
+                "+3 Utilisation||+3 Dégâts||+15% réussite, marque affaiblissante, réduit l'armure de 1 de la cible marquée / Contre nature:  vole 2 point de final",
+                "+4 Utilisation||+4 Dégâts||+20% réussite, marque affaiblissante, réduit l'armure de 1 de la cible marquée / Contre nature:  vole 4 point de final",
+                "+5 Utilisation||+5 Dégâts||+25% réussite, marque affaiblissante, réduit l'armure de 1 de la cible marquée / Contre nature:  vole 4 point de final, Marque déconcertante = réduit aussi la résistance élémentaire de 3 point"
+            ]},
+            {"nom":"Purification","Description":"autre sort tout aussi basique que efficace: Ce sort est capable de purger la cible de tout état altérant sa santé (hors blessure) peut inhaler la plupart des poisons et des sortilèges noire. (2 utilisations) / Contre nature: le sortilège perce 3 points de résistance AIR","niveau":
+            [
+                "",
+                "+1 Utilisation||+1 Dégâts||+5% réussite, Purification rend 1 point de vie EAU ou FEU / Contre nature: inflige 1 point de dégât TERRE ou AIR",
+                "+2 Utilisation||+2 Dégâts||+10% réussite, Purification rend 2 point de vie EAU ou FEU / Contre nature: inflige 2 point de dégât TERRE ou AIR",
+                "+3 Utilisation||+3 Dégâts||+15% réussite, Purification rend 3 point de vie EAU ou FEU / Contre nature: inflige 3 point de dégât TERRE ou AIR",
+                "+4 Utilisation||+4 Dégâts||+20% réussite, Purification rend 4 point de vie EAU ou FEU et +5 resistance MENTAL&CHOC/ Contre nature: inflige 4 point de dégât TERRE ou AIR et applique un malus -5% de réussite à son reveille",
+                "+5 Utilisation||+5 Dégâts||+25% réussite, Purification rend 5 point de vie EAU ou FEU et +10 resistance MENTAL&CHOC/ Contre nature: inflige 5 point de dégât TERRE ou AIR et applique un malus -10% de réussite à son reveille"
+            ]},
+            {"nom":"Terre saine","Description":"Pose ses main sur la terre, tant que l'eniripsa reste dans cette position, tout les alliés autour de lui récupère 1 pv par tour. {1 utilisation par combat} / Contre nature: Assomme la cible.","niveau":
+            [
+                "",
+                "+1 Utilisation||+1 Dégâts||+5% réussite",
+                "+2 Utilisation||+2 Dégâts||+10% réussite",
+                "+3 Utilisation||+3 Dégâts||+15% réussite, marque affaiblissante, réduit l'armure de 1 de la cible marquée / Contre nature:  vole 2 point de final",
+                "+4 Utilisation||+4 Dégâts||+20% réussite, marque affaiblissante, réduit l'armure de 1 de la cible marquée / Contre nature:  vole 4 point de final",
+                "+5 Utilisation||+5 Dégâts||+25% réussite, marque affaiblissante, réduit l'armure de 1 de la cible marquée / Contre nature:  vole 4 point de final, Marque déconcertante = réduit aussi la résistance élémentaire de 3 point"
+            ]}
+        ]},
+
+        {"nom":"Zobal","sort":[
+            {"nom":"Les trois frappes","Description": "(AIR) Le zobal donne trois coup très rapide a des point précis infligeant 2 dégât dans 3 élément au choix (masque de la classe) {3 utilisation}","niveau":[
+                "",
+                "+1 dégât|+1 utilisations",
+                "+1 dégât|+1 utilisations, si les trois élément sont différent, le troisème inflige 3 dégpat supplémentaire et perce 2 de résistance élémentaire",
+                "+1 dégât|+1 utilisations, si les trois élément sont différent, le troisème inflige 3 dégpat supplémentaire et perce 2 de résistance élémentaire, si les trois élément sont les même, chaque frappe inflige 1 dégât supplémentaire",
+                "+1 dégât|+1 utilisations, Perce 1dégat élémentaire, si les trois élément sont différent, le troisème inflige 3 dégpat supplémentaire et perce 2 de résistance élémentaire, si les trois élément sont les même, chaque frappe inflige 1 dégât supplémentaire",
+                "+1 dégât|+1 utilisations, Perce 1dégat élémentaire, si les trois élément sont différent, le troisème inflige 3 dégpat supplémentaire et perce 2 de résistance élémentaire, si les trois élément sont les même, chaque frappe inflige 1 dégât supplémentaire, gagne une quatrième frappe qui inflige les dégât de deux frappes (bonus compris)"
+            ]},
+            {"nom":"Danse Macabre","Description": "(AIR) Adopte un style combat plus dansant qui augmente l'agilité de 5 (jusqu'à se que le masque s'enlève) et un bonus de 5 % de Coup Critique pendant 2 tour {1 utilisation}","niveau":[
+                "",
+                "le bonus d’agilité passe à 10",
+                "le bonus d’agilité passe à 15",
+                "le bonus d’agilité passe à 15, le bonus de Coup Critique passe à 10 %",
+                "le bonus d’agilité passe à 20, le bonus de Coup Critique passe à 10 %",
+                "le bonus d’agilité passe à 30, le bonus de Coup Critique passe à 15 %"
+            ]},
+            {"nom":"Plastron (Réaction)","Description": "Réduit les dégât du prochain coup de 15 {1 utilisation}","niveau":[
+                "",
+                "+1 utilisation | les dégât bloquer +5",
+                "+1 utilisation | les dégât bloquer +5, Les dégât bloquer augmente de 5 supplémentaire",
+                "+1 utilisation | les dégât bloquer +10, Les dégât bloquer augmente de 5 supplémentaire",
+                "+1 utilisation | les dégât bloquer +10, Les dégât bloquer augmente de 10 supplémentaire",
+                "+2 utilisation | les dégât bloquer +10, Les dégât bloquer augmente de 15 supplémentaire, gagne pendant 1 tour autant de poitn de caractéristique de l’élément bloque par plastron que de dégât bloquer par plastron"
+            ]},
+            {"nom":"Détraquage","Description": "(FEU) Quand le zobal est cerner, il peut invoquer les corne du masque du psycopathe autour de lui, inflige 5 dégât FEU et baisse l'armure des ennemis autour de vous de 1 pendant 2 tour {2 utilisation} (masque du psycopathe)","niveau":[
+                "",
+                "+1 dégât | applique -1 de résistance feu",
+                "+1 dégât | applique -1 de résistance feu, +1 dégât, détraquage ne fait plus de dégât au allié",
+                "-1 d’armure supplémentaire | -1 résistance feu , +1 dégât | -1 de résistance feu, +1 dégât, détraquage ne fait plus de dégât au allié",
+                "Détraquage gagne REACTION, -1 d’armure supplémentaire | -1 résistance feu , +1 dégât | -1 de résistance feu, +1 dégât, détraquage ne fait plus de dégât au allié",
+                "Détraquage gagne REACTION, -1 d’armure supplémentaire | -1 résistance feu , +1 dégât | -1 de résistance feu, +1 dégât, détraquage ne fait plus de dégât au allié, Détraquage fait gagner au zobal 1 dégât finaux supplémentaire pour le prochain tour pour chaque ennemis toucher par le sort"
+            ]},
+            {"nom":"Furia","Description": "(FEU) Quand le zobal est cerner, il peut invoquer les corne du masque du psycopathe autour de lui, inflige 5 dégât FEU et baisse l'armure des ennemis autour de vous de 1 pendant 2 tour {2 utilisation} (masque du psycopathe)","niveau":[
+                "",
+                "+1 dégât, diminue les chance de parade de 5 %",
+                "+2 dégât, +1 utilisation, diminue les chance de parade de 5 %",
+                "+3 dégât, +1 utilisation, diminue les chance de parade et d'esquive de 10 %",
+                "+3 dégât, +2 utilisation, diminue les chance de parade et d'esquive de 15 %",
+                "+3 dégât, +2 utilisation, diminue les chance de parade et d'esquive de 20 %, Peut ne plus foncer tout droit mais a la place lancer une rayon de rage (inflige donc des dégât de zone dans une ligne)(la diminution ne s’applique pas au Rayon --> +1 dégât)"
+            ]},
+            {"nom":"Psycatise","Description": "(FEU) Ramenne un ennemi au corps a corps de sois en l’attirant a l'aide de ses lame-fouet (max, infligeant 2 dégât finaux {2 utilisation}","niveau":[
+                "",
+                "+1 dégât",
+                "+1 dégât, Psycatise peut s’utiliser pour s’attirer",
+                "+1 dégât, Psycatise peut s’utiliser pour s’attirer, peut être utilisé sur des alliés sans leur infliger de dégât (compte comme une attaque)",
+                "+1 dégât, Psycatise peut s’utiliser pour s’attirer, peut être utilisé sur des alliés sans leur infliger de dégât (compte comme une attaque), Peut attirer 3 ennemis à la fois, augmente la résistance élémentaire de 1 pour chaque ennemis attiré pendant 2 tour",
+                "+1 dégât, Psycatise peut s’utiliser pour s’attirer, peut être utilisé sur des alliés sans leur infliger de dégât (compte comme une attaque), Peut attirer 3 ennemis à la fois, augmente la résistance élémentaire de 1 pour chaque ennemis attiré pendant 2 tour, Peut tenter d’attirer un ennemis 3 fois avec une seul utilisation, si l’une des lame-fouter touche, le Zobal gagne 1 action"
+            ]},
+            {"nom":"Fouet Explosif","Description": "(FEU) Frappe le sol avec son fouet et provoque une explosion de flamme qui inflige 5 dégât FEU a tout les ennemis présent dans la zone devant vous {2 utilisation}","niveau":[
+                "",
+                "+1 dégât | +1 utilisation",
+                "+1 utilisation, +1 dégât | +1 utilisation",
+                "+1 utilisation, +1 dégât | +1 utilisation, ignore 2 résistance FEU",
+                "+1 utilisation, +2 dégât | +2 utilisation, ignore 2 résistance FEU, peut utiliser le sort deux fois par tour",
+                "+1 utilisation, +2 dégât | +2 utilisation, ignore 2 résistance FEU, peut utiliser le sort deux fois par tour, peut fusionner les dégât de base de deux fouet en 1 coup avec une utilisation"
+            ]},
+            {"nom":"Distance (RÉACTION)","Description": "(AIR,EAU) Saute et donne un coup de pied magistrale qui repousse la cible du corps a corps de 5 mètre infligeant 2 dégât AIR (+1 dégât par mètre restant si mur){2 utilsation}","niveau":[
+                "",
+                "+1 dégât | +1 utilisation",
+                "+1 dégât | +1 utilisation,  Peut être utilisé après le sort « les trois frappe » sans jet de reflexe en réaction légitime, se sort gagne donc 2 % de chance de Coup Critique OU Peut lancer le sort « Dard Irritant » en réaction légitime sans jet de réflexe préalable après avoir fait « Distance ». Le sort Dar irritant infligeras 1 dégât supplémentaire si un jet d’accrobatie est réussit.",
+                "+1 dégât | +1 utilisation, Peut être utilisé après le sort « les trois frappe » sans jet de reflexe en réaction légitime, se sort gagne donc 2 % de chance de Coup Critique et Peut lancer le sort « Dard Irritant » en réaction légitime sans jet de réflexe préalable après avoir fait « Distance ». Le sort Dar irritant infligeras 1 dégât supplémentaire si un jet d’accrobatie est réussit.",
+                "+2 dégât | +2 utilisation,  Peut être utilisé après le sort « les trois frappe » sans jet de reflexe en réaction légitime, se sort gagne donc 2 % de chance de Coup Critique et Peut lancer le sort « Dard Irritant » en réaction légitime sans jet de réflexe préalable après avoir fait « Distance ». Le sort Dar irritant infligeras 1 dégât supplémentaire si un jet d’accrobatie est réussit.",
+                "+2 Utilisation, +2 dégat, +2 dégât | +2 utilisation,  Peut être utilisé après le sort « les trois frappe » sans jet de reflexe en réaction légitime, se sort gagne donc 2 % de chance de Coup Critique et Peut lancer le sort « Dard Irritant » en réaction légitime sans jet de réflexe préalable après avoir fait « Distance ». Le sort Dar irritant infligeras 1 dégât supplémentaire si un jet d’accrobatie est réussit, se sort peut être utiliser à la place du déplacement"
+            ]},
+            {"nom":"Piqure Aspirante","Description": "(EAU) Tire une épine qui draine la vie de l'ennemis, inflige 2 dégât par tour et soigne le zobal de 2 par tour pendant 5 tour max {2 utilisation}(masque du pleutre)","niveau":[
+                "",
+                "+1 dégât | +1 utilisation",
+                "+1 dégât | +1 utilisation, +1 dégat",
+                "+1 dégât | +1 utilisation, +2 dégat, +5 % de chance de réussite, -5 % de parade et d’esquive du sort",
+                "+1 dégât | +1 utilisation, +3 dégat, +5 % de chance de réussite, -5 % de parade et d’esquive du sort, les PV soigné devienne égale au dégât par tour",
+                "Pas de boost lvl 6, +1 dégât | +1 utilisation, +3 dégat, +5 % de chance de réussite, -5 % de parade et d’esquive du sort, les PV soigné devienne égale au dégât par tour"
+            ]},
+            {"nom":"Dard irritant","Description": "(EAU) Souffle une nué d'aiguille dans une direction. Le zobal tire 4 aiguille infligeant 1 (EAU) dégât chacune. Se sort peut être tirer en se déplaçant {3 utilisation}(masque du pleutre)","niveau":[
+                "",
+                "+1 dégât | +1 utilisation | +1 aiguille",
+                "+1 dégât | +1 utilisation | +1 aiguille, les dars sont 5% plus difficile a esquiver",
+                "+2 dégât | +2 utilisation | +2 aiguille, les dars sont 15% plus difficile a esquiver",
+                "+2 dégât | +2 utilisation | +2 aiguille, les dars sont 25% plus difficile a esquiver, Perce 1 de résistance élémentaire",
+                "+3 dégât | +3 utilisation | +3 aiguille, les dars sont 35% plus difficile a esquiver, Perce 2 de résistance élémentaire, 10 % plus difficile a paré"
+            ]}
+        ]},
+
+        {"nom":"Crâ","sort":[
+            {"nom":"Flèche Tempête","Description": "Tire une flèche qui retombe créant une Grosse Bourrasque de Vent qui inflige 4 point de dégât Air et repousse tout le monde hors de la zone {2 utilisations}","niveau":[
+                "",
+                "le jet de force pour se libérer passe à 60 ou moins",
+                "le jet de force pour se libérer passe à 50 ou moins",
+                "le jet de force pour se libérer passe à 40 ou moins",
+                "le jet de force pour se libérer passe à 30 ou moins",
+                "le jet de force pour se libérer passe à 20 ou moins"
+            ]},
+            {"nom":"Flèche glacé","Description": "tire une flèche qui gèle un ennemis sur place, elle inflige 1 dégât EAU et tant que l'ennemi ne fait pas 70 ou plus dans un jet, il passe sont tour {2 utilisations}","niveau":[
+                "",
+                "le jet de force pour se libérer passe à 60 ou moins",
+                "le jet de force pour se libérer passe à 50 ou moins, +1 dégat",
+                "le jet de force pour se libérer passe à 40 ou moins, +1 dégat, 1 utilisation",
+                "le jet de force pour se libérer passe à 30 ou moins, +2 dégat, 1 utilisation",
+                "le jet de force pour se libérer passe à 20 ou moins et applique un malus de 20 dans les caractéristique. Se malus persiste 2 tours si la cible se libère, +3 dégat, 2 utilisation"
+            ]},
+            {"nom":"Flèche de recule","Description": "Accumule la puissance du vent dans la flèche et repousse  un ennemis de AGILITÉ/10 mètre et infligeant 4 point de dégât AIR. Si la cible est repousser sur un mur, il subit 1 dégât finaux supplémentaire pour chaque 2 mètre restant {2 utilisations}","niveau":[
+                "",
+                "+1Dégat|+1utilisation",
+                "+1Dégat|+1utilisation, +1 dégât, L’ennemi toucher est maintenant repousser a AGILITÉ/5 mètre",
+                "+1Dégat|+1utilisation, +1 dégât, +1 utilisation , L’ennemi toucher est maintenant repousser a AGILITÉ/3 mètre",
+                "+1Dégat|+1utilisation, +1 dégât, +1 utilisation , L’ennemi toucher est maintenant repousser a AGILITÉ/3 mètre, si l’ennemi propulser touche un murs alors qu’il lui reste au moins 5 mètre a parcourir, il dois faire un jet de résistance au choc pour ne pas être étourdis",
+                "+1Dégat|+1utilisation, +2 dégât, +2 utilisation , L’ennemi toucher est maintenant repousser a AGILITÉ/3 mètre, si l’ennemi propulser touche un murs alors qu’il lui reste au moins 5 mètre a parcourir, il dois faire un jet de résistance au choc pour ne pas être étourdis, le sort peut être lancer en réaction"
+            ]},
+            {"nom":"Flèche Chercheuse","Description": "Une flèche qui suis la cible et peut frapper a un endroits précis a longue distance infligeant 1 dégât AIR {3 utilisations}","niveau":[
+                "",
+                "Lv 2: Mode Désarmement: la flèche chercheuse dans se mode, gagne la capacité: Désarmement, +5 % chance de réussite",
+                "Lv 2: Mode Désarmement: la flèche chercheuse dans se mode, gagne la capacité: Désarmement, +5 % chance de réussite \n Lv 3: Mode visionnaire: La flèche chercheuse n’inflige pas de dégât dans se mode, mais elle est très silencieuse et ne fait ressentir aucune douleur. Si elle touche sa cible, le Crâ pourras activé le sort: Vision de la flèche a tout moment, se qui permettras au Crâ de voir par les yeux de celui qui à été toucher. L’effet dure 1 heur, +1 utilisation",
+                "Lv 2: Mode Désarmement: la flèche chercheuse dans se mode, gagne la capacité: Désarmement, +5 % chance de réussite \n Lv 3: Mode visionnaire: La flèche chercheuse n’inflige pas de dégât dans se mode, mais elle est très silencieuse et ne fait ressentir aucune douleur. Si elle touche sa cible, le Crâ pourras activé le sort: Vision de la flèche a tout moment, se qui permettras au Crâ de voir par les yeux de celui qui à été toucher. L’effet dure 1 heur, +1 utilisation \n Lv 4: Mode Point faible: la flèche chercheuse, si elle touche sa cible, fait perdre 1 résistance élémentaire, pendant 2 tour (cumulable a l’infini, si une autre flèche est envoyer, le compte a rebours des tours est reset), +1 dégât",
+                "Lv 2: Mode Désarmement: la flèche chercheuse dans se mode, gagne la capacité: Désarmement, +5 % chance de réussite \n Lv 3: Mode visionnaire: La flèche chercheuse n’inflige pas de dégât dans se mode, mais elle est très silencieuse et ne fait ressentir aucune douleur. Si elle touche sa cible, le Crâ pourras activé le sort: Vision de la flèche a tout moment, se qui permettras au Crâ de voir par les yeux de celui qui à été toucher. L’effet dure 1 heur, +1 utilisation \n Lv 4: Mode Point faible: la flèche chercheuse, si elle touche sa cible, fait perdre 1 résistance élémentaire, pendant 2 tour (cumulable a l’infini, si une autre flèche est envoyer, le compte a rebours des tours est reset), +1 dégât \n Lv 5: mode Engourdissement: la flèche chercheuse, si elle touche sa cible, lui appliqueras un malus d’esquive de 10% pendant 3 tour, +1 utilisation",
+                "Lv 2: Mode Désarmement: la flèche chercheuse dans se mode, gagne la capacité: Désarmement, +5 % chance de réussite \n Lv 3: Mode visionnaire: La flèche chercheuse n’inflige pas de dégât dans se mode, mais elle est très silencieuse et ne fait ressentir aucune douleur. Si elle touche sa cible, le Crâ pourras activé le sort: Vision de la flèche a tout moment, se qui permettras au Crâ de voir par les yeux de celui qui à été toucher. L’effet dure 1 heur, +1 utilisation \n Lv 4: Mode Point faible: la flèche chercheuse, si elle touche sa cible, fait perdre 1 résistance élémentaire, pendant 2 tour (cumulable a l’infini, si une autre flèche est envoyer, le compte a rebours des tours est reset), +1 dégât \n Lv 5: mode Engourdissement: la flèche chercheuse, si elle touche sa cible, lui appliqueras un malus d’esquive de 10% pendant 3 tour, +1 utilisation \n Lv 6: amélioration: Le mode désarmement 10 % est plus difficile a évité, le mode visionnaire dure 2 heur, le mode point faible passe à -2 résistance élémentaire, le mode engourdissement passe à -20%, +2 utilisation"
+            ]},
+            {"nom":"Flèche d'expiation","Description": "Se concentre pendant X tour, puis tire une flèche infligeant 5 + (X x 3) (max 3 tour) dégât EAU a une longue distance, si la flèche est charger 3 tours la flèche transperce tout les ennemis. {1 utilisation}","niveau":[
+                "",
+                "-10 % de chance de parade et d’esquive de la flèche",
+                "passe la multiplication à x4, -10 % de chance de parade et d’esquive de la flèche",
+                "+1 utilisation, +2 dégât, passe la multiplication à x4, -10 % de chance de parade et d’esquive de la flèche",
+                "+1 utilisation, +2 dégât, passe la multiplication à x6, La flèche n’à plus besoin de se charger 3 tour pour transpercer tout les ennemis, -10 % de chance de parade et d’esquive de la flèche",
+                "+1 utilisation, +4 dégât, passe la multiplication à x6, Se charge au maximum au bout de 2 tour, -20 % de chance de parade et d’esquive de la flèche, "
+            ]},
+            {"nom":"Flèche explosive","Description": "Tire une flèche qui explose en zone et inflige 8 dégât FEU en zone et font tomber les ennemis toucher dans la zone {2 utilisation}","niveau":[
+                "",
+                "+1 dégats",
+                "la flèche explosive peut exploser a retardement, en réaction (chance de réussite égale au sort), +2 dégat",
+                "La flèche explosive ignore 3 résistance FEU, la flèche explosive peut exploser a retardement, en réaction (chance de réussite égale au sort), +2 dégat",
+                "la flèche explosive gagne 2 dégât Finaux, La flèche explosive ignore 3 résistance FEU, la flèche explosive peut exploser a retardement, en réaction (chance de réussite égale au sort), +3 dégat",
+                "la flèche explosive peut être lancer deux fois par tour ou en doublon se qui fusionne les dégâts, la flèche explosive gagne 2 dégât Finaux, La flèche explosive ignore 3 résistance FEU, la flèche explosive peut exploser a retardement, en réaction (chance de réussite égale au sort), +4 dégat"
+            ]}
+        ]},
+
+        {"nom":"Feca","sort":[
+            {"nom":"Attaque Naturel","Description": "C'est le sort de base des Féca. Tire une boule de feu explosant et infligeant 4 dégât FEU, se sort peut être lancer 2 fois par tour {5 utilisation}","niveau":[
+                "",
+                "+1 dégât, +1 utilisations",
+                "+1 dégât, +3 utilisations",
+                "+1 dégât, +5 utilisations, les fusionne en une boule se qui double les dégât de la boule de feu",
+                "+1 dégât, +7 utilisations, les fusionne en une boule se qui double les dégât de la boule de feu, peut utiliser le sort 3 fois par tour et lancer 3 boule de feu",
+                "+1 dégât, +7 utilisations, les fusionne en une boule se qui double les dégât de la boule de feu, peut utiliser le sort 3 fois par tour et lancer 3 boule de feu, Peut lancer autant de boule de feu par tour que le joueur le souhaite (1 boule de feu = 1 utilisation)"
+            ]},
+            {"nom":"Attaque Nuageuse","Description": "Concentre des nuages dans une petite zone et fait tomber 6 éclaire sur des personne dans la zone. Le Féca peut choisir ses cibles. Chaque éclaire inflige 1 dégât AIR. La concentration met 1 tour a se charger {2 utilisation}","niveau":[
+                "",
+                "+1 dégât | +1 utilisations",
+                "+1 dégât | +1 utilisations, la concentration prend une action et non un tour",
+                "+2 dégât | +2 utilisations, la concentration prend une action et non un tour",
+                "+2 dégât | +2 utilisations, la concentration prend une action et non un tour, passe le nombre d’éclaire qui tombe à 8",
+                "+1 dégât, +2 dégât | +2 utilisations, Plus de concentration, passe le nombre d’éclaire qui tombe à 8"
+            ]},
+            {"nom":"Attaque terrestre (RÉACTION)","Description": "Matérialise 3 rocher qui gravite autour du Féca, il peut les diriger pour bloquer des projectile (3 dégât par projectile où les utiliser comme projectile. Chaque rocher inflige 3 dégât et renverse la cible {3 utilisation}","niveau":[
+                "",
+                "Variante de sort : RinoRock : Fait apparaître un gros rocher qui le projète contre vos adversaire infligeant 6 dégât TERRE en petite zone",
+                "+1 utilisation, Variante de sort : RinoRock : Fait apparaître un gros rocher qui le projète contre vos adversaire infligeant 6 dégât TERRE en petite zone, Variante de sort : Mur Rocheux (REACTION) déploie un mure de roche pouvant tanker jusqu’à 20 PV le porteur peut en s’imobilisant et se consentraint faire passer les PV du mur à 35",
+                "+2 utilisation, Variante de sort : RinoRock : Fait apparaître un gros rocher qui le projète contre vos adversaire infligeant 6 dégât TERRE en petite zone, Variante de sort : Mur Rocheux (REACTION) déploie un mure de roche pouvant tanker jusqu’à 20 PV le porteur peut en s’imobilisant et se consentraint faire passer les PV du mur à 35, Attaque terestre fait maintenant apparaître 5 rocher",
+                "+3 utilisation, Variante de sort : RinoRock : Fait apparaître un gros rocher qui le projète contre vos adversaire infligeant 6 dégât TERRE en petite zone, Variante de sort : Mur Rocheux (REACTION) déploie un mure de roche pouvant tanker jusqu’à 20 PV le porteur peut en s’imobilisant et se consentraint faire passer les PV du mur à 35, Attaque terestre fait maintenant apparaître 5 rocher, les dégât de RinoRock passe à 8 et le lanceur peut utiliser 1 utilisation supplémentaire pour passer les dégât à 12",
+                "+4 utilisation, Variante de sort : RinoRock : Fait apparaître un gros rocher qui le projète contre vos adversaire infligeant 6 dégât TERRE en petite zone, Variante de sort : Mur Rocheux (REACTION) déploie un mure de roche pouvant tanker jusqu’à 20 PV le porteur peut en s’imobilisant et se consentraint faire passer les PV du mur à 35, Attaque terestre fait maintenant apparaître 5 rocher, les dégât de RinoRock passe à 8 et le lanceur peut utiliser 1 utilisation supplémentaire pour passer les dégât à 12, passe les dégât tanker par le mur Rocheux de base à 35, si le porteur s’imobilise les dégât tanker passe à 60"
+            ]},
+            {"nom":"Attaque de la bulle","Description": "Attaque a longue porté. Matérialise une boule d'eau et l'envoie rapidement sur sa cible,la boule inflige 3 dégât EAU. la boule peut se diviser en trois maximum pour frapper jusqu'à 3 cible différente, chaque boule inflige donc 1 dégât chacune (Si la boule est diviser en 2, l'une fait 1 dégât, l'autre 2 dégât EAU)(la répartition des dégât est faite par le joueur) {3 utilisation}","niveau":[
+                "",
+                "+1 dégât | +1 utilisation",
+                "+2 dégât | +2 utilisation",
+                "+3 dégât | +3 utilisation, Attaque de la bulle peut être utiliser sur un allier, se qui lui applique des PV bouclier. Les PV bouclier son égale au dégât que ferais le sort s’il était lancer sur un ennemis (les PV bouclier dure tant que le sort n’est pas relancer sur un autre allié ou que les PV soit épuiser)",
+                "+3 dégât | +3 utilisation, Attaque de la bulle peut être utiliser sur un allier, se qui lui applique des PV bouclier. Les PV bouclier son égale au dégât que ferais le sort s’il était lancer sur un ennemis (les PV bouclier dure tant que le sort n’est pas relancer sur un autre allié ou que les PV soit épuiser), Augmente les PV Bouclier générer par se sort de 5 | Si les trois bulle sont rassembler pour frapper un seul ennemis le sort inflige 3 dégât finaux supplémentaire | les bulles dispercer inflige autant de dégât que si elle était rassembler",
+                "Le sort devient en REACTION, +1 utilisation, +3 dégât | +3 utilisation, Attaque de la bulle peut être utiliser sur un allier, se qui lui applique des PV bouclier. Les PV bouclier son égale au dégât que ferais le sort s’il était lancer sur un ennemis (les PV bouclier dure tant que le sort n’est pas relancer sur un autre allié ou que les PV soit épuiser), Augmente les PV Bouclier générer par se sort de 5 | Si les trois bulle sont rassembler pour frapper un seul ennemis le sort inflige 3 dégât finaux supplémentaire | les bulles dispercer inflige autant de dégât que si elle était rassembler"
+            ]},
+            {"nom":"Bouclier de Féca","Description": "Le féca tend la main ou son avant bras et matérialise une barrière devant lui bloquant tout déplacement et attaque venant de l’extérieur. La barrière bloque 20 PV de base et dure tant que le Féca reste dans cette position {2 utilisation}","niveau":[
+                "",
+                "Le Féca peut utiliser deux utilisation d’un coup",
+                "+5 PV Bouclier, +1 utilisations, le Féca peut maintenant se déplacer sans désinvoquer son bouclier, Le Féca peut utiliser deux utilisation d’un coup",
+                "+5 PV Bouclier, +2 utilisations, le Féca peut maintenant se déplacer sans désinvoquer son bouclier, Le Féca peut utiliser deux utilisation d’un coup, Le Féca peut dépenser des PV pour recharger les PV de son bouclier. La surface bloquer par le bouclier grandis (passe de 1 mètre de rayon à 5 mètre de rayon)",
+                "+5 PV Bouclier, +2 utilisations, le Féca peut maintenant se déplacer sans désinvoquer son bouclier, Le Féca peut utiliser deux utilisation d’un coup, Le Féca peut dépenser des PV pour recharger les PV de son bouclier. La surface bloquer par le bouclier grandis (passe de 1 mètre de rayon à 5 mètre de rayon), Le Féca peut lancer des sort depuis son bras libre ou l’utiliser pour augmenter les PV du bouclier de 10 points",
+                "+5 PV Bouclier, +2 utilisations, le Féca peut maintenant se déplacer sans désinvoquer son bouclier, Le Féca peut utiliser deux utilisation d’un coup, Le Féca peut dépenser des PV pour recharger les PV de son bouclier. La surface bloquer par le bouclier grandis (passe de 1 mètre de rayon à 5 mètre de rayon), Le Féca peut lancer des sort depuis son bras libre ou l’utiliser pour augmenter les PV du bouclier de 10 points, (épic) : Maitre Féca : Le Féca s’entoure d’une auras jaune qui recouvre tout son corp et génère un bouclier surpuissant consommant toute les utilisation de Bouclier de Féca pour généré un bouclier (le bouclier à 130 PV si le Féca à encore 4 utilisation ou plus, 90 PV s’il en à 3, 60 PV s’il en à 2, 35 PV s’il en a 1 et 0 PV s’il en a 0). Dans cette forme le bouclier est permanent, mais le Féca ne peut plus lancer d’autre sort et tout les dégât qu’il reçoit sont pris par le bouclier.  Le Féca tombe instantanément K.O si il n’à plus de point de bouclier sur lui. Dans cette forme, le féca est capable de se téléporté devant un allié quand se dernier reçoit une attaque (max 3 téléportation par tour). S’il était déjà tomber K.O avant. Il ne pourras pas se relever avant qu’il est reçu des soins digne de se nom en infirmerie"
+            ]},
+            {"nom":"Renvoie de sort (RÉACTION)","Description": "Utilisable uniquement contre un sort ou contre des projectile élémentaire, renvois le sort en direction du lanceur de se dernier, en cas de tire multiple, ils sont tous renvoyer. Un malus d'esquive de -25 pour la surprise est appliquer la première fois qu’un sort est renvoyer {2 utilisation}","niveau":[
+                "",
+                "les projectile renvoyer inflige 1 dégât finaux de plus",
+                "+1 utilisation, les projectile renvoyer inflige 3 dégât finaux de plus",
+                "+1 utilisation, les projectile renvoyer inflige 3 dégât finaux de plus, la vitesse du projectile est renvoyer est augmenter se qui applique un malus de -20 % supplémentaire pour esquiver ou parer le sort renvoyer",
+                "+2 utilisation, les projectile renvoyer inflige 3 dégât finaux de plus, la vitesse du projectile est renvoyer est augmenter se qui applique un malus de -20 % supplémentaire pour esquiver ou parer le sort renvoyer, le sort peut renvoiyer les sort n’infligeant pas de dégât et dans la mesure du possible appliquer leur effet a leur lanceur",
+                "+3 utilisation, les projectile renvoyer inflige 3 dégât finaux de plus, la vitesse du projectile est renvoyer est augmenter se qui applique un malus de -20 % supplémentaire pour esquiver ou parer le sort renvoyer, le sort peut renvoiyer les sort n’infligeant pas de dégât et dans la mesure du possible appliquer leur effet a leur lanceur, double les dégât du ou des projectile renvoyer puis applique tout les bonus de dégât des dernier niveaux"
+            ]}
+        ]},
+
+        {"nom":"Sacrieur","sort":[
+            {"nom":"Chatiment forcé","Description": "chaque coup reçu augmente la force de 5 jusqu’à un maximum de 20 point {1 utilsation}","niveau":[
+                "",
+                "+5 % de résistance au Choc",
+                "+5 % de résistance au Choc, +5 % de carrure, augmente le maximum de 5",
+                "+5 % de parade, +5 % de résistance au Choc, +5 % de carrure, augmente le maximum de 5",
+                "+5 % d’endurance, +5 % de parade, +5 % de résistance au Choc, +5 % de carrure, augmente le maximum de 5",
+                "+10 % d’endurance, +10 % de parade, +10 % de résistance au Choc, +10 % de carrure, augmente le maximum de 10"
+            ]},
+            {"nom":"Chatiment chanceux","Description": "Chaque coup reçu augmente la chance de 5 jusqu’à un maximum de 20 point {1 utilsation}","niveau":[
+                "",
+                "+5 % de dissimulation",
+                "+5 % de dissimulation, +5 % de dissimulation, augmente le maximum de 5",
+                "+5 % de chance, +5 % de dissimulation, +5 % de dissimulation, augmente le maximum de 5",
+                "+5 % de chance de réussite des sorts, +5 % de chance, +5 % de dissimulation, +5 % de dissimulation, augmente le maximum de 5",
+                "+10 % de chance de réussite des sorts, +10 % de chance, +10 % de dissimulation, +10 % de dissimulation, augmente le maximum de 10"
+            ]},
+            {"nom":"Chatiment agilesque","Description": "chaque coup reçu augmente l'agilité de 5 jusqu’à un maximum de 20 point {1 utilsation}","niveau":[
+                "",
+                "+5 % de visé",
+                "+5 % d’esquive, +5 % de visé, augmente le maximum de 5",
+                "+5 % de reflexe, +5 % d’esquive, +5 % de visé, augmente le maximum de 5",
+                "+5 % d’acrobatie, +5 % de reflexe, +5 % d’esquive, +5 % de visé, augmente le maximum de 5",
+                "+10 % d’acrobatie, +10 % de reflexe, +10 % d’esquive, +10 % de visé, augmente le maximum de 10"
+            ]},
+            {"nom":"Chatiment intelect","Description": "chaque coup reçu augmente l'intéligence de 5 jusqu’à un maximum de 20 point {1 utilsation}","niveau":[
+                "",
+                "+5 % de traque",
+                "+5 % de conaissance Monstre, +5 % de traque, augmente le maximum de 5",
+                "+5 % de Perception, +5 % de conaissance Monstre, +5 % de traque, augmente le maximum de 5",
+                "+5 % de résistance mental, +5 % de Perception, +5 % de conaissance Monstre, +5 % de traque, augmente le maximum de 5",
+                "+10 % de résistance mental, +10 % de Perception, +10 % de conaissance Monstre, +10 % de traque, augmente le maximum de 10"
+            ]},
+            {"nom":"Transposition","Description": "Le sacrieur dispose du pouvoir d'échanger sa place avec celle d'un allié ou d'un ennemis d'une simple téléportation {3 utilisation}","niveau":[
+                "",
+                "+10% Parade s’il utilise transposition sur un allié",
+                "+1 utilisation, +10% Parade s’il utilise transposition sur un allié, -10 % sur les jet de dés ennemis jusqu’à la fin du tour du sacrieur",
+                "+1 utilisation, +10% Parade s’il utilise transposition sur un allié, -10 % sur les jet de dés ennemis jusqu’à la fin du tour du sacrieur, transpisition soigne de 1 PV EAU le sacrieur",
+                "+1 utilisation, +10% Parade s’il utilise transposition sur un allié, -10 % sur les jet de dés ennemis jusqu’à la fin du tour du sacrieur, transpisition soigne de 1 PV EAU le sacrieur, peut infliger 3 dégât AIR",
+                "+2 utilisation, trasposition peut maintenant être utilisé sur du vide, +10% Parade s’il utilise transposition sur un allié, -10 % sur les jet de dés ennemis jusqu’à la fin du tour du sacrieur, transpisition soigne de 3 PV EAU le sacrieur, peut infliger 5 dégât AIR"
+            ]},
+            {"nom":"Résistance de Sacrieur (REACTION)","Description": "s’entoure d’une auras rouge augmentant la défense final en fonction des PV du lanceur pendant 1 tour, Entre 100 % et 75 % : +1 défense finale, Entre 75 % et 50 % : +2 défense finale, Entre 50 et 25 % : +3 défense finale, Mois de 25 % : +4 défense finale {2 Utilisation}","niveau":[
+                "",
+                "+1 utilisation",
+                "+1 utilisation, +1 défense entre 100 % et 75 % | +1 défense entre 50 % et 25 %",
+                "+1 utilisation, +1 défense entre 100 % et 75 % | +1 défense entre 50 % et 25 %, +1 défense entre 75 % et 50 % | +1 défense à moins de 25 %",
+                "+1 utilisation | +1 tour Max, +1 utilisation, +1 défense entre 100 % et 75 % | +1 défense entre 50 % et 25 %, +1 défense entre 75 % et 50 % | +1 défense à moins de 25 %",
+                "+1 défense finale, +1 utilisation | +1 tour Max, +1 utilisation, +1 défense entre 100 % et 75 % | +1 défense entre 50 % et 25 %, +1 défense entre 75 % et 50 % | +1 défense à moins de 25 %"
+            ]},
+            {"nom":"Punition","Description": "C'est l'un des sort les plus puissant de sacrieur. Le sacrieur emflame sa paume et frappe en veangance de la force vital qui lui a été enlever, se sort inflige des dégât FEU égale au nombre de PV divisé par deux perdu durant le combat (minimum 1 dégât). {1 utilisation}","niveau":[
+                "",
+                "+1 Utilisation | -5 % esquive, -5 % de parade sur se sort",
+                "+1 Utilisation | -5 % esquive, +5 dégât de base | -5 % esquive, -10 % de parade sur se sort",
+                "+1 Utilisation | -5 % esquive, +5 dégât de base | -5 % esquive, -10 % de parade sur se sort, 1 fois par combat Punition peut changer d’élément de frappe, -5 % esquive et -5 % de parade sur se sort | Punition ne peut plus rater son lancé",
+                "+1 Utilisation | -5 % esquive, +5 dégât de base | -5 % esquive, -10 % de parade sur se sort, 1 fois par combat Punition peut changer d’élément de frappe, -5 % esquive et -5 % de parade sur se sort | Punition ne peut plus rater son lancé, Les dégât passe à +1 à chaque PV Max perdu, -5 % esquive et -5 % de parade sur se sort | +5 dégât de base",
+                "Punition obtiens l’atout Inarrêtable. -10 % esquive et -10 % de parade sur se sort | les dégât devienne finaux, +1 Utilisation | -5 % esquive, +5 dégât de base | -5 % esquive, -10 % de parade sur se sort, 1 fois par combat Punition peut changer d’élément de frappe, -5 % esquive et -5 % de parade sur se sort | Punition ne peut plus rater son lancé, Les dégât passe à +1 à chaque PV Max perdu, -5 % esquive et -5 % de parade sur se sort | +5 dégât de base"
+            ]},
+            {"nom":"Sacrifice","Description": "se lie a une cible et pour le prochain tour, transfert au sacrieur tout les dégât subit par la cible {1 utilisation}","niveau":[
+                "",
+                "Réduit tout les dégât subbit par l’effet de 1",
+                "+1 réduction de dégât, +1 utilisation, Réduit tout les dégât subbit par l’effet de 1",
+                "+1 réduction de dégât, +1 utilisation, Réduit tout les dégât subbit par l’effet de 1, +3 réduction de dégât || +1 dégât finaux 1 tour par tique de dégât subbit par l’effet",
+                "Soigne le Sacrieur d’autant de dégât réduit par la réduction de dégât de ce sort | Sacrifice prend REACTION, +1 tour d'effet, +1 réduction de dégât, +1 utilisation, Réduit tout les dégât subbit par l’effet de 1, +3 réduction de dégât || +1 dégât finaux 1 tour par tique de dégât subbit par l’effet",
+                "EPIC : A chaque lancer de sort « Sacrifice » une orbe rouge et molle apparais proche du Sacrieur. Les dégât subbit par le Sacrieur (apres la réduction du a l’armure et a toute résistance) du au sort Sacrifice s’accumule dans l’orbe. Une fois l’effet du sort « Sacrifice » qui as généré l’orbe, elle peut relacher toute la puissance qu’elle a accumulé dans un Rayon rouge infligeant X dégât à la première personne touché. Si le Sacrieur possède moins de 20 % de se PV Max, se sort est 20 % plus dure a esquivé ou à parer, Soigne le Sacrieur d’autant de dégât réduit par la réduction de dégât de ce sort | Sacrifice prend REACTION, +1 tour d'effet, +1 réduction de dégât, +1 utilisation, Réduit tout les dégât subbit par l’effet de 1, +3 réduction de dégât || +1 dégât finaux 1 tour par tique de dégât subbit par l’effet"
+            ]},
+            {"nom":"Sang pour Sang","Description": "donne 1 coup rapidement qui inflige 1 dégât EAU. Donne 1 coup supplémentaire par tranche de 5 PV qu'il vous manque {3 utilisation}","niveau":[
+                "",
+                "+1 dégât de base | +2 utilisations",
+                "+1 dégât de base | +2 utilisations, Les dégât ignore 1 point de résistance élémentaire EAU",
+                "+1 dégât de base | +2 utilisations, Les dégât ignore 1 point de résistance élémentaire EAU, Peut fusionner tout les dégât en 1 seul coup",
+                "+1 dégât de base | +2 utilisations, Les dégât ignore 1 point de résistance élémentaire EAU, Peut fusionner tout les dégât en 1 seul coup, Toucher une cible avec 1 coup de « Sang pour Sang » lui retire 1 point de défense Final pour jusqu’à la fin de votre prochain tour (cumulable a l’infini)",
+                "+1 dégât de base | +2 utilisations, Les dégât ignore 1 point de résistance élémentaire EAU, Peut fusionner tout les dégât en 1 seul coup, Toucher une cible avec 1 coup de « Sang pour Sang » lui retire 1 point de défense Final pour jusqu’à la fin de votre prochain tour (cumulable a l’infini)(se réinialise si réapliqué), La perce-résistance du niveaux 3 se cummule maintenant entre les coup en cas de fusion en 1 seul coup (du au LV 4), Le sort devient 5 % plus dure a esquiver par tranche de 5 PV manquant et tout les coup prenne «Coup Puissant»"
+            ]},
+            {"nom":"Attirance","Description": "Tire un lien sanguin qui attire sa cible jusqu'aux corps a corps du sacrieur, le lien peut aller jusqu'à 30 mètre {2 utilisation}","niveau":[
+                "",
+                "+1 utilisation",
+                "+1 utilisation, Attirance peut maintenant servire pour s’attiré à une cible au lieux de forcément l’attiré vers soit. Ou en tant que Lasso",
+                "+2 utilisation, Attirance peut maintenant servire pour s’attiré à une cible au lieux de forcément l’attiré vers soit. Ou en tant que Lasso, L’attirance peut maintenant faire des dégât lorsqu’il attrape un adversaire. Elle inflige 3 dégât FEU",
+                "Augmente les dégât de 2 | baisse les chance d’esquive de se sort de 10 %, +2 utilisation, Attirance peut maintenant servire pour s’attiré à une cible au lieux de forcément l’attiré vers soit. Ou en tant que Lasso, L’attirance peut maintenant faire des dégât lorsqu’il attrape un adversaire. Elle inflige 3 dégât FEU",
+                "Augmente les dégât de 2 | baisse les chance d’esquive de se sort de 10 %, +2 utilisation, Attirance peut maintenant servire pour s’attiré à une cible au lieux de forcément l’attiré vers soit. Ou en tant que Lasso, L’attirance peut maintenant faire des dégât lorsqu’il attrape un adversaire. Elle inflige 3 dégât FEU, Attirance ne peut plus être Parer par une parade normal sauf par une parade parfaite, Si c’est le cas. Le Sacrieur attire donc l’équipement qui a servis à la parade (la personne en question si la parade parfaite a donc été effectuer avec son corps), -10 % d’esquive de se sort supplémetaire"
+            ]}
+        ]}
+    ]
+}

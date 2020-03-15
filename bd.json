@@ -1,0 +1,71 @@
+{
+  "Malio": {
+    "classe": {
+      "nom": "Sacrieur"
+    },
+    "xpMax": 300,
+    "armure": 3,
+    "kamas": 2080,
+    "xp": 0,
+    "defaut": [
+      {
+        "Description": "Le personnage est faible et perd donc 10 de caractéristique élémentaire au choix",
+        "nom": "Faible"
+      }
+    ],
+    "sexe": "F",
+    "qualite": [
+      {}
+    ],
+    "sortAcqui": [
+      {
+        "Description": "chaque coup reçu augmente la force de 5 jusqu\u2019à un maximum de 20 point {1 utilsation}",
+        "Bonus": "+5 % de résistance au Choc, +5 % de carrure, augmente le maximum de 5",
+        "nom": "Chatiment forcé",
+        "niveau": 3
+      },
+      {
+        "Description": "se lie a une cible et pour le prochain tour, transfert au sacrieur tout les dégât subit par la cible {1 utilisation}",
+        "Bonus": "",
+        "nom": "Sacrifice",
+        "niveau": 1
+      }
+    ],
+    "element": {
+      "tenebre": 30,
+      "terre": 30,
+      "feu": 20,
+      "eau": 10,
+      "lumiere": 40,
+      "air": 30
+    },
+    "sortPassif": [
+      {
+        "Description": "Malédiction sur le dos de Malio qui sert a bloqué la magie en elle car elle n'a pas voulut respecter un dieu",
+        "nom": "Malédiction"
+      }
+    ],
+    "compSecondaire": [
+      {
+        "Description": "Augmente tes chance de parade",
+        "nom": "Parade"
+      },
+      {
+        "Description": "Augmente tes chance de reflex",
+        "nom": "Reflex"
+      },
+      {
+        "Description": "Augmente tes chance d'esquive",
+        "nom": "Esquive"
+      },
+      {
+        "Description": "Connaissance en magie améliorer",
+        "nom": "Connaissance Magie"
+      },
+      {
+        "Description": "Connaissance en monstre améliorer",
+        "nom": "Connaissance Monstre"
+      }
+    ]
+  }
+}
