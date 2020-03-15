@@ -20,9 +20,7 @@ public class SortAcqui {
         nom = (String) j.get("nom");
         description  = (String) j.get("Description");
         this.niveau = niveau;
-
-        JSONArray level = (JSONArray) j.get("niveau");
-        descriptionNiveau =(String) level.get(niveau-1);
+        descriptionNiveau =(String) j.get("Bonus");
     }
 
     public JSONObject toJSONObject(){

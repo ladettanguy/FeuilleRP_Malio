@@ -1,5 +1,6 @@
 package Perso;
 
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -47,14 +48,12 @@ public class Personnage {
 
             //Sort Actif
             JSONArray sortA = (JSONArray) perso.get("sortAcqui");
-            for (int i=0;i < sortA.size();i++)
-                sortAcquis.add(new SortAcqui((JSONObject) sortA.get(i)));
+            for (Object o : sortA) sortAcquis.add(new SortAcqui((JSONObject) o));
 
             //Sort Passif
             JSONArray sortP = (JSONArray) perso.get("sortPassif");
 
-            for (int i = 0; i < sortP.size(); i++)
-                sortsPassifs.add(new SortPassif((JSONObject) sortP.get(i)));
+            for (Object o : sortP) sortsPassifs.add(new SortPassif((JSONObject) o));
 
             Qualite_Defaut q = new Qualite_Defaut();
 
@@ -70,7 +69,7 @@ public class Personnage {
 
             //Compétence Secondaire
             JSONArray comp = (JSONArray) perso.get("compSecondaire");
-            for (int i= 0; i < comp.size();i++) compSecondaires.add(new CompSecondaire((JSONObject) comp.get(i)));
+            for (Object o : comp) compSecondaires.add(new CompSecondaire((JSONObject) o));
 
             //Classe
             this.classe = new Classe((JSONObject) perso.get("classe"));
@@ -98,9 +97,9 @@ public class Personnage {
         classe = new Classe(newClass);
 
         JSONArray newSort = (JSONArray) newClass.get("sort");
-        for (int i = 0; i < newSort.size(); i++)
-            if(((int) (Math.random()*2)) == 1 && ((int)(Math.random()*3) != 0))
-                sortAcquis.add(new SortAcqui((JSONObject) newSort.get(i), (int)((Math.random()*6)+1)));
+        for (Object o : newSort)
+            if (((int) (Math.random() * 2)) == 1 && ((int) (Math.random() * 3) != 0))
+                sortAcquis.add(new SortAcqui((JSONObject) o, (int) ((Math.random() * 6) + 1)));
         save();
     }
 
